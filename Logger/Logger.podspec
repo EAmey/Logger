@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
           #6.
           s.author               = "EAmey"
           #7.
-          s.platform            = :ios, "10.0"
+          s.platform            = :ios, "9.0"
           #8.
-          s.source              = { :git => "https://github.com/EAmey/Logger.git", :tag => "1.0.0" }
+          s.source              = { :git => "https://github.com/EAmey/Logger.git",:branch => "1.0.0", :tag => "1.0.1" }
           #9.
           s.source_files     = "Logger/**/*.{h,m,swift}"
     end

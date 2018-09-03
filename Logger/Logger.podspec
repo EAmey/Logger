@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
           #8.
           s.source              = { :git => "https://github.com/EAmey/Logger.git", :tag => "1.0.0" }
           #9.
-          s.source_files     = "Logger", "Logger/**/*.{h,m,swift}"
+          s.source_files     = "Logger/**/*.{h,m,swift}"
     end

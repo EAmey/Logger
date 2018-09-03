@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "Logger"
           #2.
-          s.version            = "1.0.0"
+          s.version            = "1.0.1"
           #3.  
           s.summary         = "Sort description of 'Logger' framework"
           #4.
@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
           #5.
           s.license              = "Copyleft"
           #6.
-          s.author               = "EAmey"
+          s.author               = "Amey"
           #7.
           s.platform            = :ios, "9.0"
           #8.
-          s.source              = { :git => "https://github.com/EAmey/Logger.git",:branch => "1.0.0", :tag => "1.0.1" }
+          s.source              = { :git => "https://github.com/EAmey/Logger.git",:branch => "master", :tag => "1.0.1" }
           #9.
-          s.source_files     = "Logger/**/*.{h,m,swift}"
+          s.source_files     = "Logger", "Logger/*.{h,m,swift}"
     end
